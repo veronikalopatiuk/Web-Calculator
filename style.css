@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+div.display {
+    width: 100%;
+    text-align: right;
+    border: 1px solid rgb(118, 118, 118);
+    margin: 2px;
+    padding: 2px;
+    
+}
+
+#history {
+    font-family: 'Orbitron', sans-serif;
+}
+
+#answer {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+}
+
+td.display {
+    padding: 2px;
+}
+
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+.tg td{
+    border-style:solid;
+    border-width:0px;
+    padding:2px;
+}
+
+.tg .tg-0pky{
+    border-color:inherit;
+    text-align:center;
+    vertical-align:center;
+    padding:2px;
+}
+
+.tg .tg-0lax{
+    text-align:center;
+    vertical-align:center;
+    padding:2px;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    margin: 0px;
+}
+
+.equal {
+    height: 150px;
+}
+
+.zero {
+    width: 150px;
+}
