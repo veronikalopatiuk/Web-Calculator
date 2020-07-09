@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
+table {
+    vertical-align: middle;
+}
+
+
 div.display {
-    width: 100%;
+    flex-direction: column;
+    width: 370px;
     text-align: right;
     border: 1px solid rgb(118, 118, 118);
     margin: 2px;
-    padding: 2px;
+    padding: 5px;
     
 }
 
@@ -23,6 +29,9 @@ td.display {
 }
 
 .tg  {
+    margin-top: 15vh;
+    margin-left:auto; 
+    margin-right:auto;
     border-collapse:collapse;
     border-spacing:0;
 }
@@ -33,14 +42,7 @@ td.display {
     padding:2px;
 }
 
-.tg .tg-0pky{
-    border-color:inherit;
-    text-align:center;
-    vertical-align:center;
-    padding:2px;
-}
-
-.tg .tg-0lax{
+.tg .tg-keypad{
     text-align:center;
     vertical-align:center;
     padding:2px;
@@ -50,6 +52,7 @@ button {
     width: 70px;
     height: 70px;
     margin: 0px;
+    font-size: 20px;
 }
 
 .equal {
