@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
-table {
-    vertical-align: middle;
-}
-
-
 div.display {
     flex-direction: column;
     width: 370px;
@@ -17,11 +12,13 @@ div.display {
 
 #history {
     font-family: 'Orbitron', sans-serif;
+    height: 20px;
 }
 
 #answer {
     font-family: 'Orbitron', sans-serif;
     font-size: 30px;
+    height: 37px;
 }
 
 td.display {
