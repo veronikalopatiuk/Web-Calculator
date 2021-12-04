@@ -50,62 +50,6 @@
             </table>
         </div>
 
-    <script>
-        let answer = document.getElementById("answer");
-        let history = document.getElementById("history");
-        let action;
-        let result = 0;
-
-        function divide(a, b){
-            return a / b;
-        }
-
-        function plus(a, b){
-            return a + b;
-        }
-
-        function minus(a, b){
-            return a - b;
-        }
-
-        function multiply(a, b){
-            return a * b;
-        }
-
-        function keyPressed(key) {
-            if(["divide","plus","minus","multiply"].includes(key)) {
-                let current = Number(answer.innerText);
-                switch(key) {
-                    case "divide":
-                        result = divide(result, current);
-                        break;
-                    case "plus":
-                        result = plus(result, current);
-                        break;
-                    case "minus":
-                        result = minus(result, current);
-                        break;
-                    case "multiply":
-                        result = multiply(result, current);
-                        break;
-                    default:
-                        break;
-                }
-                answer.innerText = result;
-            } else if (key == "equal") {
-
-            } else if(["clear","del"].includes(key)) {
-
-            } else if(key == "dp") {
-                if(!answer.innerText.includes(".")) {
-                    answer.innerText += ".";
-                }
-            } else if(["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"].includes(key)) {
-                if (answer.innerText.length < 10){
-                    answer.innerText += key;
-                }
-            }
-        }
-    </script>
+    <script src="script.js"></script>
     </body>
 </html>
